@@ -1,6 +1,6 @@
-const { isPackageExists } = require('local-pkg')
+const { isPackageExists } = import('local-pkg')
 
-module.exports = isPackageExists('prettier')
+export default isPackageExists('prettier')
   ? {
       extends: ['plugin:prettier/recommended'],
     }

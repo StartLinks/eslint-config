@@ -1,6 +1,6 @@
-const { readGitignoreFiles } = require('eslint-gitignore')
+import { readGitignoreFiles } from 'eslint-gitignore'
 
-module.exports = {
+export default {
   env: {
     es6: true,
     node: true,

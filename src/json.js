@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ['plugin:jsonc/recommended-with-jsonc'],
   rules: {
     'jsonc/sort-array-values': [

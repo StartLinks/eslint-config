@@ -1,6 +1,6 @@
-const { isPackageExists } = require('local-pkg')
+const { isPackageExists } = import('local-pkg')
 
-module.exports = isPackageExists('nuxt')
+export default isPackageExists('nuxt')
   ? {
       extends: ['@nuxt/eslint-config'],
     }

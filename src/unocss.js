@@ -1,6 +1,6 @@
-const { isPackageExists } = require('local-pkg')
+const { isPackageExists } = import('local-pkg')
 
-module.exports = isPackageExists('unocss')
+export default isPackageExists('unocss')
   ? {
       extends: ['@unocss/eslint-config'],
     }
