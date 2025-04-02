@@ -13,11 +13,6 @@ module.exports = {
     // common lint
     './src/javascript.js',
     './src/typescript.js',
-    // framework lint
-    './src/nuxt.js',
-    './src/vue.js',
-    // style lint
-    './src/unocss.js',
     // file lint
     './src/json.js',
     './src/package.js',
@@ -28,6 +23,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   ignorePatterns: readGitignoreFiles(),
 }
