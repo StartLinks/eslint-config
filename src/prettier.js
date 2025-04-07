@@ -1,7 +1,3 @@
-const { isPackageExists } = require('local-pkg')
+import PrettierConfig from 'eslint-config-prettier/flat'
 
-module.exports = isPackageExists('prettier')
-  ? {
-      extends: ['plugin:prettier/recommended'],
-    }
-  : {}
+export default [PrettierConfig]
