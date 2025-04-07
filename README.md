@@ -1,6 +1,6 @@
 # @StartLinks/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@startlinks/eslint-config?style=flat&color=f03e3e)](https://npmjs.com/package/@StartLinks/eslint-config)
+[![npm](https://img.shields.io/npm/v/@startlinks/eslint-config?style=flat&color=f03e3e)](https://npmjs.com/package/@startlinks/eslint-config)
 [![star](https://img.shields.io/github/stars/StartLinks/eslint-config?style=flat&color=1c7ed6)](https://github.com/StartLinks/eslint-config)
 [![license](https://img.shields.io/npm/l/@startlinks/eslint-config?style=flat&color=37b24d)](https://github.com/StartLinks/eslint-config/blob/main/LICENSE)
 [![language](https://img.shields.io/badge/language-简体中文-f76707)](https://github.com/StartLinks/eslint-config)
