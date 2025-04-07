@@ -1,5 +1,3 @@
-/// <reference path="./index.d.ts" />
-
 import js from '@eslint/js'
 import eslint from '@eslint/js'
 import { readGitignoreFiles } from 'eslint-gitignore'

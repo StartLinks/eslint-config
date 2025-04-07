@@ -3,10 +3,7 @@ import ReactNative from 'eslint-plugin-react-native'
 import ImportConfig from 'eslint-plugin-import-x'
 
 import { FlatCompat } from '@eslint/eslintrc'
-import path from 'path'
-import { fileURLToPath } from 'url'
 
-// mimic CommonJS variables -- not needed if using CommonJS
 const __dirname = import.meta.dirname
 
 const compat = new FlatCompat({
