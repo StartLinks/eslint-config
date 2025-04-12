@@ -23,6 +23,8 @@ export default [
       'unicorn/no-await-expression-member': 'off', // access await expression
       'unicorn/no-anonymous-default-export': 'off', // allow anonymous export
       'unicorn/no-object-as-default-parameter': 'off', // allow empty object
+      'unicorn/no-array-reduce': 'off', // allow array reduce
+      'unicorn/prefer-ternary': 'off', // allow ternary operator for readability
     },
   },
 ]
