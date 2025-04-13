@@ -1,6 +1,6 @@
 {
   "name": "@startlinks/eslint-config",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "ESLint config by StartLinks",
   "license": "MIT",
   "homepage": "https://github.com/startlinks/eslint-config",
