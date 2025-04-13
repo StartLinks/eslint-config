@@ -1,5 +1,4 @@
 import TSESLint from 'typescript-eslint'
-import ImportConfig from 'eslint-plugin-import-x'
 
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
 
